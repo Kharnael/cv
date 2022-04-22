@@ -1,0 +1,153 @@
+.container {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIN {
+    from {
+        opacity:0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(-0deg);
+    }
+}
+
+.container {
+    width: 20rem;
+    margin-top: 5%;
+    box-shadow: 5%;
+    overflow: hidden;
+}
+
+.card-body {
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+body {
+    background-image: url('https://www.terraremota.com/wp-content/uploads/2016/06/stock-photo-art-concrete-texture-for-background-in-black-grey-and-white-colors-298514801.jpg');
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.lead {
+    font-size: 2.5rem;
+    margin-top: 10%;
+    font-weight: 300;
+}
+
+.introducing {
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 15%
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+h1 {
+    text-align: center
+}
+
+body {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc)
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+h1 {
+    text-align: center
+}
+
+body {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc)
+}
