@@ -1,6 +1,7 @@
-.container {
-    margin-top: 15%;
-    overflow: hidden;
+.container-fluid {
+margin-top: 10%;
+overflow: hidden;
+width: 40%;
 }
 
 body {
@@ -8,7 +9,3 @@ body {
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     }
-
-.card {
-    width
-}
