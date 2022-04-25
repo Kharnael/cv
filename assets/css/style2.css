@@ -1,0 +1,33 @@
+.container {
+    margin-top: 15%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('https://www.terraremota.com/wp-content/uploads/2016/06/stock-photo-art-concrete-texture-for-background-in-black-grey-and-white-colors-298514801.jpg');
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.progress {
+    margin-top: 5%;
+    height: 50px;
+    margin-bottom: 12%;
+}
+
+.progress-bar {
+    height: 50px;
+}
+
+.h1 {
+    margin-bottom: 5%;
+}
+
+.lead {
+    font-size: 1.75rem;
+    margin-top: 5%;
+}
+
+.title {
+    margin-bottom: 15%;
+}

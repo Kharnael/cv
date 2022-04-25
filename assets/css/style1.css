@@ -1,0 +1,57 @@
+.body {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIN {
+    from {
+        opacity:0;
+        transform: rotateX(-10deg);
+}
+to {
+        opacity: 1;
+        transform: rotateX(-0deg);
+    }
+}
+
+.container {
+    width: 20rem;
+    margin-top: 5%;
+    box-shadow: 5%;
+    overflow: hidden;
+}
+
+.card-body {
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+body {
+    background-image: url('https://www.terraremota.com/wp-content/uploads/2016/06/stock-photo-art-concrete-texture-for-background-in-black-grey-and-white-colors-298514801.jpg');
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.lead {
+    font-size: 2.5rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-weight: 300;
+    width: 15%;
+    margin-left: 42.5%;
+ }
+
+.introducing {
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center
+}
+
+.textcenter {
+    font-size: 1rem;
+}
