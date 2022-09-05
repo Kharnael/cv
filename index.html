@@ -1,101 +1,332 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
-    rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Document</title>
+  <title>Quentin Parsy | Web Developer</title>
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-    <div class="btn-group">
-      <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Contact
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="Navbar">
+    <div class="container">
+      <a class="navbar-brand text-accent-2 fw-bold" href="#">Quentin Parsy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <ul class="dropdown-menu text-center bg-dark border">
-        <li><a class="dropdown-item text-white bg-transparent border-bottom"
-            href="mailto:parsyquentin@gmail.com">E-mail</a></li>
-        <li><a class="dropdown-item text-white bg-transparent" href="social.html">Réseaux sociaux</a></li>
-      </ul>
-    </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-      <ul class="navbar-nav text-center">
-        <li class="nav-item">
-          <a class="nav-link text-white border-end border-start" aria-current="page" href="index.html">A propos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white border-end" href="skills.html">Compétences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white border-end" href="experiences.html">Expériences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="hobbies.html">Centres d'intérêt</a>
-        </li>
-      </ul>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#About">A propos de moi</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#Experience">Expérience</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#Skills">Compétences</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <main id="main-content" role="main">
-
-    <!-- Section à propos landing section -->
-    <section id="#A propos">
-      <div class="container">
-        <div class="card-fluid mt-5 mx-auto">
-          <img src="assets/img/black.jpg" class="rounded-circle" alt="black">
-          <div class="card-body text-center">
-            <h1 class="card-title">Quentin Parsy</h1>
-            <p>Apprenant développeur web</p>
+  <section class="bg-white" id="Home">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-md-6 mx-auto my-auto">
+          <h1 class="display-3 text-center fw-small text-dark">Quentin
+            <span class="fw-semibold text-accent-2">PARSY</span>
+          </h1>
+          <h4 class="text-dark mb-4 text-center">Développeur web junior</h4>
+        </div>
+        <div class="col-md-6 mx-auto my-auto">
+          <img class="w-75 d-block mx-auto" style="border-radius: 12px;" src="assets/img/profil.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
-    <h1 class="lead text-center shadow-lg">
-      Qui suis-je ?</h1>
-      <div class="text-center">
-        <figure class="text-center">
+  </section>
+
+
+  <section class="bg-light-grey px-5" id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 my-auto">
+          <h1 class="text-center pb-3">A propos de moi</h3>
+            <h1 class="display-4 text-center text-accent-2 text-cursive">Quentin Parsy</h1>
+        </div>
+        <div class="col-12 col-md-8 lh-lg">
           <blockquote class="blockquote">
-            <h1>"La créativité, c'est l'intelligence qui s'amuse."</h1>
-            <i>- Albert Einstein</I>
+            <p class="mb-1">"La créativité, c'est l'intelligence qui s'amuse"</p>
+            <footer class="blockquote-footer"><cite title="Source Title">Albert Einstein</cite></footer>
+          </blockquote>
+          <p class="fw-medium">Passionné par le monde du numérique, je cherche à en comprendre le langage. C'est ainsi que je me suis donné toutes les chances de pouvoir me reconvertir, et en faire mon métier.</p>
+        </div>
       </div>
-      </blockquote>
-    <p class="introducing text-center">
-    </p>
+    </div>
+  </section>
 
-
-     
-
-
-
-
-
+  <section class="bg-white" id="Experience">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-12 text-center fw-semibold py-3 text-center">Expérience</h1>
       </div>
-    </section>
+      <div class="row">
+        <div class="col-12 col-md-6 px-5 py-4">
+          <i class="fa-solid fa-graduation-cap h1"></i>
+          <h3 class="ps-2 py-2 fw-semibold d-inline-block text-center mb-3">Formation</h3>
+          <div class="pb-3">
+            <h5>Titre Développeur Web & Web Mobile à <span class="text-accent-2 fw-bold">La Manu</span></h5>
+            <p class="mb-0 py-1 fst-italic">2022</p>
+            <p>Formation en cours, passage du titre professionnel prévu pour le mois d'Octobre</p>
+          </div>
+          <div class="pb-3">
+            <h5>Baccalauréat Général Littéraire au <span class="text-accent-2 fw-bold">Lycée Louis Thuillier</span></h5>
+            <p class="mb-0 py-1 fst-italic">2010</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 px-5 py-4  border-start">
+          <i class="fa-solid fa-briefcase h1"></i>
+          <h3 class="ps-2 py-2 fw-semibold d-inline-block mb-3">Expérience</h3>
+          <div class="pb-3">
+            <h5>Télé-secrétaire à <span class="text-accent-2 fw-bold">Exotel</span></h5>
+            <p class="mb-0 py-1 fst-italic">2017 - 2021</p>
+            <p>Répondre aux besoins de secrétariat des professionnels de santé, artisans/auto-entrepeneur, avocats, PME
+              etc...</p>
+          </div>
+          <div class="pb-3">
+            <h5>Modérateur sur <span class="text-accent-2 fw-bold">Leboncoin</span></h5>
+            <p class="mb-0 py-1 fst-italic">2016 - 2017</p>
+            <p>En charge de la modération des annonces et réponse aux signalements sur Leboncoin.fr</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="bg-light-grey" id="Skills">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-12 text-center fw-semibold py-3">Compétences</h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 px-5 pt-4 pt-0 pt-md-4">
+          <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <h5 class="d-inline-block pe-1 pe-5">HTML</h5>
+            </div>
+            <div class="col-12 col-md-8">
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <h5 class="d-inline-block ms-2 px-3 py-1 text-white fw-bold bg-accent-2" style="border-radius: 8px;">60%
+              </h5>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <h5 class="d-inline-block pe-1 pe-5">CSS</h5>
+            </div>
+            <div class="col-12 col-md-8">
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <h5 class="d-inline-block ms-2 px-3 py-1 text-white fw-bold bg-accent-2" style="border-radius: 8px;">50%
+              </h5>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <h5 class="d-inline-block pe-1 pe-5">Javascript</h5>
+            </div>
+            <div class="col-12 col-md-8">
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <h5 class="d-inline-block ms-2 px-3 py-1 text-white fw-bold bg-accent-2" style="border-radius: 8px;">30%
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 px-5 pt-0 pt-md-4 pb-4">
+          <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <h5 class="d-inline-block pe-1 pe-5">PHP</h5>
+            </div>
+            <div class="col-12 col-md-8">
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <h5 class="d-inline-block ms-2 px-3 py-1 text-white fw-bold bg-accent-2" style="border-radius: 8px;">40%
+              </h5>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <h5 class="d-inline-block pe-1 pe-5">MySQL</h5>
+            </div>
+            <div class="col-12 col-md-8">
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <h5 class="d-inline-block ms-2 px-3 py-1 text-white fw-bold bg-accent-2" style="border-radius: 8px;">80%
+              </h5>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <h5 class="d-inline-block pe-1 pe-5">Git</h5>
+            </div>
+            <div class="col-12 col-md-8">
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-accent-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <span class="bg-light-grey-2 skills-circle"></span>
+              <h5 class="d-inline-block ms-2 px-3 py-1 text-white fw-bold bg-accent-2" style="border-radius: 8px;">80%
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="bg-light-grey" id="Portfolio">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-12 text-center fw-semibold py-3">Portfolio</h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 px-5 py-4">
+          EN CONSTRUCTION
+        </div>
+      </div>
+      <!-- <div class="row">
+                <div class="mx-auto col-10 row">
+                    <div class="col-12 col-md-4">
+                        <img class="w-100" style="border-radius: 12px;" src="img/portfolio-1.jpeg" alt="">
+                        <h5 class="pt-3">Lorem ipsum</h5>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="col-12 col-md-4 square">
+                        <img class="w-100" style="border-radius: 12px;" src="img/portfolio-2.jpeg" alt="">
+                        <h5 class="pt-3">Lorem ipsum</h5>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="col-12 col-md-4 square">
+                        <img class="w-100" style="border-radius: 12px;" src="img/portfolio-3.jpeg" alt="">
+                        <h5 class="pt-3">Lorem ipsum</h5>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+            </div> -->
+      <!-- <div class="row">
+                <div class="mx-auto col-10 row">
+                    <div class="col-12 col-md-4 square">
 
+                        <!-- <img class="w-100" style="border-radius: 12px;" src="img/portfolio-4.jpeg" alt="">
+                        <h5 class="pt-4">Lorem ipsum</h5>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="col-12 col-md-4 square">
+                        <img class="w-100" style="border-radius: 12px;" src="img/portfolio-5.jpeg" alt="">
+                        <h5 class="pt-4">Lorem ipsum</h5>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="col-12 col-md-4 square">
+                        <img class="w-100" style="border-radius: 12px;" src="img/portfolio-6.jpeg" alt="">
+                        <h5 class="pt-4">Lorem ipsum</h5>
+                        <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div> --> -->
+    </div>
+    </div>
+    </div>
+  </section>
 
+  <section class="bg-white" id="Contact">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-12 text-center fw-semibold py-3">Contact Info</h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 px-5 py-2 py-md-4">
+          <i class="fa-solid fa-phone h1 text-accent-2 d-block text-center"></i>
+          <h5 class="lh-lg text-center">06 44 81 07 47</h5>
+        </div>
+        <div class="col-12 col-md-4 px-5 py-2 py-md-4">
+          <i class="fa-solid fa-at h1 text-accent-2 d-block text-center"></i>
+          <h5 class="lh-lg text-center">parsyquentin@gmail.com</h5>
+        </div>
+        <div class="col-12 col-md-4 px-5 py-2 py-md-4">
+          <i class="fa-solid fa-location-dot h1 text-accent-2 d-block text-center"></i>
+          <h5 class="lh-lg text-center">Amiens</h5>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </main>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+  <section class="p-0" id="Footer">
+    <p class="text-center text-white bg-dark-grey m-0 py-4">&copy; 2022 - Quentin Parsy</p>
+  </section>
+  <script src="https://kit.fontawesome.com/9209300180.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
