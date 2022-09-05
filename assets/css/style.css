@@ -42,11 +42,6 @@ section {
 #Home .btn {
     border: solid 2px transparent;
 }
-#Home .btn:hover {
-    background-color: transparent !important;
-    border: solid 2px var(--accent-4);
-    color: var(--accent-4) !important;
-}
 
 .skills-circle {
     width: 15px; 
